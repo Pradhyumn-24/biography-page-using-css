@@ -3,42 +3,59 @@ html {
 }
 
 h1 {
+  /* font-family: monospace; */
   color: darkslategray;
-  border-bottom: 10px dotted purple;
-  font-size: 2rem;
 }
 
-.job-title {
+.role-title {
   color: darkslategray;
   font-weight: bold;
 }
 
-body {
+.card { 
+  /* background-color: #efefef; */
+  /* background-color: beige; */
+  background-color: rgb(255, 255, 208);
+  margin: 0 auto 0 auto;
+  /* margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px; */
+  color: black;
+  font-family: Verdana;
   font: 1.2em / 1.5 system-ui;
-  padding: 20px;
-  width: 500px;
-  background-color: #efefef;
-  margin: 0 auto 0 auto
+  padding: 22px;
+  width: 575px;
+  /* border-radius: 16px; */
+  border-width: 11px;
+  border-style: solid;
+  border-image: url("https://foollovers.com/mat/menu05/51a-none.gif") 9 round;
+  box-sizing: border-box;
+  /* overflow: hidden; */
 }
 
-h2 {
-  font-style: italic;
-  font-size: 1.5rem;
+body {
+  /* background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg'); */
+  /* background-attachment: fixed;
+  background-repeat: repeat;  */
+  /* background-color: #98c2d6 rgb(154, 249, 241) rgb(133, 241, 240); */
+  background-color: #6a6f4c;
 }
 
 ul {
-  background-color: white;
-  border: 5px solid purple;
+  background-color: indianred;
+  border: 5px solid brown;
   padding: 30px;
   border-radius: 20px;
+  list-style-type: none;
 }
 
-a:link {
-  color: green;
+a {
+  color: maroon;
 }
 
 a:hover,
 a:focus {
-  color: darkgreen;
+  color: khaki ;
   text-decoration: none;
 }
